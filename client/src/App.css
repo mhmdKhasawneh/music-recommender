@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(184, 176, 176);
+}
+
+.container-before{
+  margin-top: 40px;
+}
+
+.container-after{
+  margin-bottom: 50px;
+}
+.recommendation{
+  width: 100%;
+  text-align: center;
+}
+
+.input{
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 50%;
+  border-radius: 50px;
+  border: 2px solid;
+}
+
+li{
+  display: flex;
+  border: solid black;
+  border-radius: 50px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+img{
+  position: relative;
+  top: 0.7px;
+  left: 2px;
+  border-radius: 50px;
+}
+
+.redirect{
+  position: absolute;
+  left: 82%;
+  border-radius: 50px;
+  border: solid black;
+  border-width: 2px;
+  background-color: #1DB954;
+  justify-content: center;
+}
+
+.nostyle{
+  text-decoration: none;
+  color: black;
+}
